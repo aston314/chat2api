@@ -4,5 +4,6 @@ micros:
   - name: Chat2api
     src: ./
     engine: python3.9
+    run: ./main
     public_routes:
       - "/*"
