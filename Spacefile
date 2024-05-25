@@ -4,6 +4,8 @@ micros:
   - name: Chat2api
     src: ./
     engine: python3.9
+    commands:
+          - pip install --upgrade orjson
     presets:
       env:
         - name: AUTHORIZATION
