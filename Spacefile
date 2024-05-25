@@ -10,5 +10,8 @@ micros:
         - name: AUTHORIZATION
           description: Secret message only available to this Micro
           default: "sk-ai"
+        - name: PORT
+          description: Secret message only available to this Micro
+          default: "5005"
     public_routes:
       - "/*"
